@@ -21,6 +21,11 @@ module.exports = {
         test: /\.tsx?$/,
         loader: "ts-loader",
         exclude: /node_modules/
+      },
+      {
+        test: /\.tsx?$/,
+        loader: "eslint-loader",
+        exclude: /node_modules/
       }
     ]
   },
